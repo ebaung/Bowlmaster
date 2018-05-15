@@ -1,11 +1,19 @@
-﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupConfiguration="{7B9122B3-0979-D482-BAD7-F023B076DF58}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/ScoreMasterTest.cs">
+﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupConfiguration="{7B9122B3-0979-D482-BAD7-F023B076DF58}|" StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreMaster.cs">
     <Files>
-      <File FileName="Assets/Scripts/ScoreMaster.cs" Line="24" Column="81" />
-      <File FileName="Assets/Editor/ScoreMasterTest.cs" Line="215" Column="2" />
+      <File FileName="Assets/Scripts/ScoreMaster.cs" Line="9" Column="49" />
+      <File FileName="Assets/Editor/ScoreMasterTest.cs" Line="168" Column="85" />
+      <File FileName="Assets/Scripts/ActionMaster.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Ball.cs" Line="26" Column="31" />
+      <File FileName="Assets/Scripts/BallDragLaunch.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CameraControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="18" Column="32" />
+      <File FileName="Assets/Scripts/Pin.cs" Line="7" Column="36" />
+      <File FileName="Assets/Scripts/PinCounter.cs" Line="71" Column="58" />
+      <File FileName="Assets/Scripts/PinSetter.cs" Line="60" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

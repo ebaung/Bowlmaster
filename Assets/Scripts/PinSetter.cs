@@ -18,7 +18,7 @@ public class PinSetter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		
 	}
 		
 	public void RaisePins(){

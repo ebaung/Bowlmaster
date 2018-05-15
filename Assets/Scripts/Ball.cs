@@ -32,12 +32,12 @@ public class Ball : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//if (transform.position.z <= 1829f) {  //want to access CameraControl.stopPosition, but can't!
-		//	strike = GetComponent<AudioSource> ();
-		//	strike.Play ();
-		//} else {
-		//	return;
-		//}
+		if (transform.position.z <= 1829f) {  //want to access CameraControl.stopPosition, but can't!
+			strike = GetComponent<AudioSource> ();
+			strike.Play ();
+		} else {
+			return;
+		}
 	}
 
 	public void Reset(){

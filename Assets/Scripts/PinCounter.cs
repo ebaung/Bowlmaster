@@ -19,12 +19,14 @@ public class PinCounter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//print (CountStanding());
+		print (CountStanding());
+		print (ballOutOfPlay);
 		standingDisplay.text = CountStanding().ToString();
 
 		if(ballOutOfPlay){
 			UpdateStandingCountAndSettle ();
-			standingDisplay.color = Color.red;
+			standingDisplay.color = Color.red; // RGBA(1,0,0,1) = RED
+			//print (standingDisplay.color);
 		}
 	}
 
@@ -50,6 +52,7 @@ public class PinCounter : MonoBehaviour {
 		}
 
 		float settleTime = 3f; // How long ot wait ot consider pins settled
+		//print(Time.time - lastChangeTime);
 		if((Time.time - lastChangeTime) > settleTime){ // If last change > 3s ago
 			// Call PinsHaveSettled
 			PinsHaveSettled();
@@ -57,6 +60,7 @@ public class PinCounter : MonoBehaviour {
 	}
 
 	void PinsHaveSettled(){
+		print ("running PinsHaveSettled method");
 		int standing = CountStanding ();
 		int pinFall = lastSettledCount - standing;
 		lastSettledCount = standing;
@@ -64,6 +68,7 @@ public class PinCounter : MonoBehaviour {
 		lastStandingCount = -1; // Indicates pins have settled, and ball not back in box
 		ballOutOfPlay = false;
 		standingDisplay.color = Color.green;
+		print (standingDisplay.color);	// RGBA(0,1,0,1) = GREEN
 	}
 
 

@@ -20,21 +20,22 @@ public class ScoreMaster {
 	public static List<int> ScoreFrames (List<int>rolls){
 		List<int> frameList = new List<int> ();
 
-        for (int i = 1; i < rolls.Count; i += 2){
-            if (frameList.Count == 10) { break;}    // Prevents 11th frame score
+		// Index i points to 2nd bowl of frame
+        for (int i = 1; i < rolls.Count; i += 2){		
+            if (frameList.Count == 10) { break;}    	// Prevents 11th frame score
 
-            if (rolls[i-1] + rolls[i] < 10)     // Normal "open" frame
+            if (rolls[i-1] + rolls[i] < 10)     		// Normal "OPEN" frame
             {
                 frameList.Add(rolls[i - 1] + rolls[i]);
             }
 
-            if (rolls.Count - i <= 1) { break; }    // Insufficient look-ahead
+            if (rolls.Count - i <= 1) { break; }    	// Ensure at least 1 look-ahead available
 
-            if (rolls[i - 1] == 10)                 // STRIKE
+            if (rolls[i - 1] == 10)                 	// STRIKE
             {
-                i--;                                // Strike frame has just one bowl
+                i--;                                	// Strike frame has just one bowl
                 frameList.Add(10 + rolls[i + 1] + rolls[i + 2]);
-            } else if (rolls[i - 1] + rolls[i] == 10)     // Calculate SPARE bonus
+            } else if (rolls[i - 1] + rolls[i] == 10)   // Calculate SPARE bonus
             {
                 frameList.Add(10 + rolls[i + 1]);
             }
