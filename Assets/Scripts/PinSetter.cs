@@ -52,7 +52,7 @@ public class PinSetter : MonoBehaviour {
 		} else if (action==ActionMaster.Action.Reset){
 			animator.SetTrigger ("resetTrigger");
 			pinCounter.Reset ();
-		} else if (action==ActionMaster.Action.EndTurn){
+		} else if (action==ActionMaster.Action.EndGame){
 			throw new UnityException ("Don't know how to handle end game yet");
 		}
 	}

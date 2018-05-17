@@ -18,7 +18,7 @@ public class ScoreMaster {
 
 	// Return a list of individual frame scores (not cumulative)
 	public static List<int> ScoreFrames (List<int>rolls){
-		List<int> frameList = new List<int> ();
+		List<int> frameList = new List<int> ();     // Ben used "frame" instead of "frameList"
 
 		// Index i points to 2nd bowl of frame
         for (int i = 1; i < rolls.Count; i += 2){		

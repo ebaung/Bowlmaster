@@ -7,8 +7,9 @@ public class Ball : MonoBehaviour {
 	public bool inPlay = false;
 
 	private Rigidbody rigidBody;
-	private AudioSource ballSound;
-	private AudioSource strike;
+	private AudioSource ballSound; 	// my own "extra" work in progress
+	private AudioSource strike;		// my own "extra" work in progress
+	//private AudioSource audiosource;  // original line of code for AudioSource
 	private Vector3 ballStartPos;
 
 	// Use this for initialization
@@ -28,6 +29,10 @@ public class Ball : MonoBehaviour {
 
 		ballSound = GetComponent<AudioSource>();
 		ballSound.Play ();
+
+		//original lines of code:
+		//AudioSource = GetComponent<AudioSource>();
+		//AudioSource.Play ();
 	}
 	
 	// Update is called once per frame

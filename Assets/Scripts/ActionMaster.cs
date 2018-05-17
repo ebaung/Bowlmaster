@@ -31,14 +31,15 @@ public class ActionMaster {
 
 		//Handle last-frame special cases
 
-		if (bowl == 19 && pins == 10) {
+		if (bowl >= 19 && pins == 10) {
 			bowl++;
 			return Action.Reset;
 		} else if (bowl == 20) {
 			bowl++;
 			if (bowls[19-1]==10 && bowls[20-1]==0) { 
 				return Action.Tidy; 
-			} else if ((bowls[19-1] + bowls[20-1]) % 10 == 0) { 
+			//} else if ((bowls[19-1] + bowls[20-1]) % 10 == 0) { 
+			} else if ((bowls[19-1] + bowls[20-1]) == 10) { 
 				return Action.Reset; 
 			} else if ( Bowl21Awarded() ) { 
 				return Action.Tidy; 

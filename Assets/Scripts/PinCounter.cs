@@ -19,8 +19,8 @@ public class PinCounter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print (CountStanding());
-		print (ballOutOfPlay);
+		//print (CountStanding());
+		//print (ballOutOfPlay);
 		standingDisplay.text = CountStanding().ToString();
 
 		if(ballOutOfPlay){
@@ -70,7 +70,7 @@ public class PinCounter : MonoBehaviour {
 		lastStandingCount = -1; // Indicates pins have settled, and ball not back in box
 		ballOutOfPlay = false;
 		standingDisplay.color = Color.green;
-		print (standingDisplay.color);	// RGBA(0,1,0,1) = GREEN
+		//print (standingDisplay.color);	// RGBA(0,1,0,1) = GREEN
 	}
 
 
