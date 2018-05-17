@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ScoreDisplay : MonoBehaviour {
 
@@ -16,4 +17,9 @@ public class ScoreDisplay : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void FillRollCard(List<int> rolls){
+		rolls [-1] = 1;
+	}
+
 }
