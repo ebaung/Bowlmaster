@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2534
+    x: 2533
     y: 45
     width: 2535
     height: 1406
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 2535
     height: 1356
-  m_MinSize: {x: 679, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 504, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 58
+  controlID: 75
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,14 +64,14 @@ MonoBehaviour:
     y: 0
     width: 584
     height: 1356
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -115,15 +115,15 @@ MonoBehaviour:
     y: 825
     width: 1951
     height: 531
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 21}
   - {fileID: 14}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
     y: 0
     width: 2535
     height: 1406
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -208,10 +208,10 @@ MonoBehaviour:
     y: 0
     width: 1951
     height: 1356
-  m_MinSize: {x: 404, y: 342}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 404, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 59
+  controlID: 76
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 60
+  controlID: 77
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 4488
+    x: 4486
     y: 94
     width: 582
     height: 1335
@@ -717,7 +717,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: /Volumes/Vulcan/cw/Udemy/UnityCourse1.0/008 Bowl Master/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.641723
+      duration: 0.922825
       messages: 
       output: 
       stacktrace: 
@@ -729,7 +729,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.244045
+      duration: 0.258527
       messages: 
       output: 
       stacktrace: 
@@ -741,7 +741,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.015863
+      duration: 0.020489
       messages: 
       output: 
       stacktrace: 
@@ -753,7 +753,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.01228
+      duration: 0.008221
       messages: 
       output: 
       stacktrace: 
@@ -765,7 +765,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.007983
+      duration: 0.007879
       messages: 
       output: 
       stacktrace: 
@@ -777,7 +777,7 @@ MonoBehaviour:
       name: T03Bowl28SpareReturnsEndTurn
       fullName: ActionMasterTest.T03Bowl28SpareReturnsEndTurn
       resultStatus: 1
-      duration: 0.008189
+      duration: 0.008077
       messages: 
       output: 
       stacktrace: 
@@ -789,7 +789,7 @@ MonoBehaviour:
       name: T04CheckResetAtStrikeInLastFrame
       fullName: ActionMasterTest.T04CheckResetAtStrikeInLastFrame
       resultStatus: 1
-      duration: 0.007868
+      duration: 0.007766
       messages: 
       output: 
       stacktrace: 
@@ -801,7 +801,7 @@ MonoBehaviour:
       name: T05CheckResetAtSpareInLastFrame
       fullName: ActionMasterTest.T05CheckResetAtSpareInLastFrame
       resultStatus: 1
-      duration: 0.007632
+      duration: 0.012212
       messages: 
       output: 
       stacktrace: 
@@ -813,7 +813,7 @@ MonoBehaviour:
       name: T06YouTubeRollsEndInEndGame
       fullName: ActionMasterTest.T06YouTubeRollsEndInEndGame
       resultStatus: 1
-      duration: 0.007939
+      duration: 0.007719
       messages: 
       output: 
       stacktrace: 
@@ -825,7 +825,7 @@ MonoBehaviour:
       name: T07GameEndsAtBowl20
       fullName: ActionMasterTest.T07GameEndsAtBowl20
       resultStatus: 1
-      duration: 0.01195
+      duration: 0.00787
       messages: 
       output: 
       stacktrace: 
@@ -837,7 +837,7 @@ MonoBehaviour:
       name: T08DarylBowl20Test
       fullName: ActionMasterTest.T08DarylBowl20Test
       resultStatus: 1
-      duration: 0.011527
+      duration: 0.007914
       messages: 
       output: 
       stacktrace: 
@@ -849,7 +849,7 @@ MonoBehaviour:
       name: T09BensBowl20Test
       fullName: ActionMasterTest.T09BensBowl20Test
       resultStatus: 1
-      duration: 0.008053
+      duration: 0.00816
       messages: 
       output: 
       stacktrace: 
@@ -861,7 +861,7 @@ MonoBehaviour:
       name: T10NathanBowlIndexTest
       fullName: ActionMasterTest.T10NathanBowlIndexTest
       resultStatus: 1
-      duration: 0.007758
+      duration: 0.012355
       messages: 
       output: 
       stacktrace: 
@@ -873,7 +873,7 @@ MonoBehaviour:
       name: T11Dondi10thFrameTurkey
       fullName: ActionMasterTest.T11Dondi10thFrameTurkey
       resultStatus: 1
-      duration: 0.008109
+      duration: 0.031171
       messages: 
       output: 
       stacktrace: 
@@ -885,7 +885,151 @@ MonoBehaviour:
       name: T12ZeroOneGivesEndTurn
       fullName: ActionMasterTest.T12ZeroOneGivesEndTurn
       resultStatus: 1
-      duration: 0.01226
+      duration: 0.007681
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest][suite]'
+      name: ScoreDisplayTest
+      fullName: ScoreDisplayTest
+      resultStatus: 1
+      duration: 0.184188
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.T00PassingTest]'
+      name: T00PassingTest
+      fullName: ScoreDisplayTest.T00PassingTest
+      resultStatus: 1
+      duration: 0.006932
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.T01Bowl1]'
+      name: T01Bowl1
+      fullName: ScoreDisplayTest.T01Bowl1
+      resultStatus: 1
+      duration: 0.010488
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.T02BowlX]'
+      name: T02BowlX
+      fullName: ScoreDisplayTest.T02BowlX
+      resultStatus: 1
+      duration: 0.012361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.T03Bowl19]'
+      name: T03Bowl19
+      fullName: ScoreDisplayTest.T03Bowl19
+      resultStatus: 1
+      duration: 0.008313
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.T04BowlStrikeInLastFrame]'
+      name: T04BowlStrikeInLastFrame
+      fullName: ScoreDisplayTest.T04BowlStrikeInLastFrame
+      resultStatus: 1
+      duration: 0.009368
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.T05Bowl0]'
+      name: T05Bowl0
+      fullName: ScoreDisplayTest.T05Bowl0
+      resultStatus: 1
+      duration: 0.010221
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.TG01GoldenCopyB1of3]'
+      name: TG01GoldenCopyB1of3
+      fullName: ScoreDisplayTest.TG01GoldenCopyB1of3
+      resultStatus: 1
+      duration: 0.010875
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.TG02GoldenCopyB2of3]'
+      name: TG02GoldenCopyB2of3
+      fullName: ScoreDisplayTest.TG02GoldenCopyB2of3
+      resultStatus: 1
+      duration: 0.015576
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.TG03GoldenCopyB3of3]'
+      name: TG03GoldenCopyB3of3
+      fullName: ScoreDisplayTest.TG03GoldenCopyB3of3
+      resultStatus: 1
+      duration: 0.006715
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.TG04GoldenCopyC1of3]'
+      name: TG04GoldenCopyC1of3
+      fullName: ScoreDisplayTest.TG04GoldenCopyC1of3
+      resultStatus: 1
+      duration: 0.009311
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp-Editor][ScoreDisplayTest.TG05GoldenCopyC2of3]'
+      name: TG05GoldenCopyC2of3
+      fullName: ScoreDisplayTest.TG05GoldenCopyC2of3
+      resultStatus: 1
+      duration: 0.008588
       messages: 
       output: 
       stacktrace: 
@@ -897,7 +1041,7 @@ MonoBehaviour:
       name: ScoreMasterTest
       fullName: ScoreMasterTest
       resultStatus: 1
-      duration: 0.368308
+      duration: 0.444216
       messages: 
       output: 
       stacktrace: 
@@ -909,7 +1053,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ScoreMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.006123
+      duration: 0.015559
       messages: 
       output: 
       stacktrace: 
@@ -921,7 +1065,7 @@ MonoBehaviour:
       name: T01Bowl23
       fullName: ScoreMasterTest.T01Bowl23
       resultStatus: 1
-      duration: 0.013378
+      duration: 0.006575
       messages: 
       output: 
       stacktrace: 
@@ -933,7 +1077,7 @@ MonoBehaviour:
       name: T02Bowl234
       fullName: ScoreMasterTest.T02Bowl234
       resultStatus: 1
-      duration: 0.006614
+      duration: 0.006683
       messages: 
       output: 
       stacktrace: 
@@ -945,7 +1089,7 @@ MonoBehaviour:
       name: T03Bowl2345
       fullName: ScoreMasterTest.T03Bowl2345
       resultStatus: 1
-      duration: 0.011211
+      duration: 0.005853
       messages: 
       output: 
       stacktrace: 
@@ -957,7 +1101,7 @@ MonoBehaviour:
       name: T04Bowl23456
       fullName: ScoreMasterTest.T04Bowl23456
       resultStatus: 1
-      duration: 0.015081
+      duration: 0.005967
       messages: 
       output: 
       stacktrace: 
@@ -969,7 +1113,7 @@ MonoBehaviour:
       name: T05Bowl234561
       fullName: ScoreMasterTest.T05Bowl234561
       resultStatus: 1
-      duration: 0.008248
+      duration: 0.006109
       messages: 
       output: 
       stacktrace: 
@@ -981,7 +1125,7 @@ MonoBehaviour:
       name: T06Bowl2345612
       fullName: ScoreMasterTest.T06Bowl2345612
       resultStatus: 1
-      duration: 0.008795
+      duration: 0.006361
       messages: 
       output: 
       stacktrace: 
@@ -993,7 +1137,7 @@ MonoBehaviour:
       name: T07BowlX1
       fullName: ScoreMasterTest.T07BowlX1
       resultStatus: 1
-      duration: 0.008647
+      duration: 0.00609
       messages: 
       output: 
       stacktrace: 
@@ -1005,7 +1149,7 @@ MonoBehaviour:
       name: T08Bowl19
       fullName: ScoreMasterTest.T08Bowl19
       resultStatus: 1
-      duration: 0.009978
+      duration: 0.006693
       messages: 
       output: 
       stacktrace: 
@@ -1017,7 +1161,7 @@ MonoBehaviour:
       name: T09Bowl123455
       fullName: ScoreMasterTest.T09Bowl123455
       resultStatus: 1
-      duration: 0.010031
+      duration: 0.005964
       messages: 
       output: 
       stacktrace: 
@@ -1029,7 +1173,7 @@ MonoBehaviour:
       name: T10SpareBonus
       fullName: ScoreMasterTest.T10SpareBonus
       resultStatus: 1
-      duration: 0.011556
+      duration: 0.006182
       messages: 
       output: 
       stacktrace: 
@@ -1041,7 +1185,7 @@ MonoBehaviour:
       name: T11SpareBonus2
       fullName: ScoreMasterTest.T11SpareBonus2
       resultStatus: 1
-      duration: 0.008703
+      duration: 0.006407
       messages: 
       output: 
       stacktrace: 
@@ -1053,7 +1197,7 @@ MonoBehaviour:
       name: T12StrikeBonus
       fullName: ScoreMasterTest.T12StrikeBonus
       resultStatus: 1
-      duration: 0.009008
+      duration: 0.006524
       messages: 
       output: 
       stacktrace: 
@@ -1065,7 +1209,7 @@ MonoBehaviour:
       name: T13StrikeBonus3
       fullName: ScoreMasterTest.T13StrikeBonus3
       resultStatus: 1
-      duration: 0.008902
+      duration: 0.006172
       messages: 
       output: 
       stacktrace: 
@@ -1077,7 +1221,7 @@ MonoBehaviour:
       name: T14MultiStrikes
       fullName: ScoreMasterTest.T14MultiStrikes
       resultStatus: 1
-      duration: 0.010161
+      duration: 0.0139
       messages: 
       output: 
       stacktrace: 
@@ -1089,7 +1233,7 @@ MonoBehaviour:
       name: T15MultiStrikes3
       fullName: ScoreMasterTest.T15MultiStrikes3
       resultStatus: 1
-      duration: 0.010015
+      duration: 0.008707
       messages: 
       output: 
       stacktrace: 
@@ -1101,7 +1245,7 @@ MonoBehaviour:
       name: T16TestGutterGame
       fullName: ScoreMasterTest.T16TestGutterGame
       resultStatus: 1
-      duration: 0.011321
+      duration: 0.01578
       messages: 
       output: 
       stacktrace: 
@@ -1113,7 +1257,7 @@ MonoBehaviour:
       name: T17TestAllOnes
       fullName: ScoreMasterTest.T17TestAllOnes
       resultStatus: 1
-      duration: 0.007358
+      duration: 0.011947
       messages: 
       output: 
       stacktrace: 
@@ -1125,7 +1269,7 @@ MonoBehaviour:
       name: T18TestAllStrikes
       fullName: ScoreMasterTest.T18TestAllStrikes
       resultStatus: 1
-      duration: 0.012423
+      duration: 0.01701
       messages: 
       output: 
       stacktrace: 
@@ -1137,7 +1281,7 @@ MonoBehaviour:
       name: T19TestImmediateStrikeBonus
       fullName: ScoreMasterTest.T19TestImmediateStrikeBonus
       resultStatus: 1
-      duration: 0.008736
+      duration: 0.008721
       messages: 
       output: 
       stacktrace: 
@@ -1149,7 +1293,7 @@ MonoBehaviour:
       name: T20SpareInLastFrame
       fullName: ScoreMasterTest.T20SpareInLastFrame
       resultStatus: 1
-      duration: 0.0103
+      duration: 0.027388
       messages: 
       output: 
       stacktrace: 
@@ -1161,7 +1305,7 @@ MonoBehaviour:
       name: T21StrikeInLastFrame
       fullName: ScoreMasterTest.T21StrikeInLastFrame
       resultStatus: 1
-      duration: 0.014206
+      duration: 0.008612
       messages: 
       output: 
       stacktrace: 
@@ -1169,13 +1313,13 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    m_ResultText: Bowlmaster (0.000s)
+    m_ResultText: ScoreDisplayTest (0.184s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 02d2acba
-      m_LastClickedID: -1163079166
-      m_ExpandedIDs: a8f177a8ee571fb658c087ba02d2acba438e6bd379d1cf040f3d640af50f8810d869962fe456c63c2e75df7dffffff7f
+      m_SelectedIDs: 4a587a3b
+      m_LastClickedID: 997873738
+      m_ExpandedIDs: a8f177a8ee571fb658c087ba02d2acba438e6bd379d1cf040f3d640af50f8810d869962f4a587a3b2e75df7dffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1199,7 +1343,8 @@ MonoBehaviour:
       NotRunHidden: 0
       m_SearchString: 
       selectedCategoryMask: 0
-      availableCategories: []
+      availableCategories:
+      - Verification
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1372,7 +1517,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 2534
+    x: 2533
     y: 919
     width: 1949
     height: 510
@@ -1389,19 +1534,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Editor
   m_LastFoldersGridSize: 96
   m_LastProjectPath: /Volumes/Vulcan/cw/Udemy/UnityCourse1.0/008 Bowl Master/Bowlmaster
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa2a0000
-    m_LastClickedID: 11002
-    m_ExpandedIDs: 00000000662a0000f42a0000fe2a0000022b0000622b0000762b00007a2c0000a62c0000fe2c00007c2d000000ca9a3bffffff7f
+    m_SelectedIDs: 322c0000
+    m_LastClickedID: 11314
+    m_ExpandedIDs: 00000000762a00000c2b0000162b00001a2b0000842b0000982b00009c2c0000c22c0000c82c0000202d00009e2d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1429,7 +1574,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000662a0000f42a0000fe2a0000022b0000622b0000762b00007a2c0000a62c0000fe2c00007c2d0000
+    m_ExpandedIDs: 00000000762a00000c2b0000162b00001a2b0000842b0000982b00009c2c0000c22c0000c82c0000202d00009e2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1454,8 +1599,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 962e0000
-    m_LastClickedInstanceID: 11926
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: d62700006e260000d8e5ffff30250000f0240000d4250000
     m_RenameOverlay:
@@ -1540,35 +1685,34 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 2534
+    x: 2533
     y: 94
     width: 495
     height: 804
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c2f0000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 1093fbffe029fcff4633fcff3a39fcff5446fcffc44efcfff65bfcff6461fcff6667fcff8455fdff8068fdffeceeffff96fbffff00000000a22e0000b62e0000
+    m_ExpandedIDs: 18a2feff80a6feff7caafeffe4c7feff1ad4feff90d7fefff2dafeff6ce2feff14e6feffb4e9feff6af0feff84f6feff5efafeff8e00ffff8006ffffa80cffff3812ffffc815ffff0e1cffff6e22ffff382affff1831ffff1237ffff2e3dffff5c41fffff246ffff124bffff9451ffff5258ffff9075ffff2076ffffa476ffffa093ffff82d5ffff76d9ffffc2ddffffb6e1ffffbce5ffff70eafffff2f0ffff7efbffff00000000123d0000483d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Bowl A
+      m_OriginalName: Bowl A
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -35442
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
-  m_ExpandedScenes:
-  - Game
+  m_ExpandedScenes: []
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -1594,20 +1738,20 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 3033
+    x: 3032
     y: 94
     width: 1450
     height: 804
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2765.591488003731
+  lastFramingTime: 1102.2633360624313
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 30.78404, y: 97.768585, z: 4.41443}
+    m_Target: {x: 30.789099, y: 97.75017, z: 4.41443}
     speed: 2
-    m_Value: {x: 30.78404, y: 97.768585, z: 4.41443}
+    m_Value: {x: 30.789099, y: 97.75017, z: 4.41443}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -1633,11 +1777,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0, y: -0, z: -0, w: -0.99999994}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: -1}
+    m_Value: {x: -0, y: 0, z: -0, w: -0.99999994}
   m_Size:
-    m_Target: 81.04786
+    m_Target: 210.34418
     speed: 2
-    m_Value: 81.04786
+    m_Value: 210.34418
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1671,7 +1815,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 3033
+    x: 3032
     y: 94
     width: 1450
     height: 804
@@ -1748,7 +1892,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 2534
+    x: 2533
     y: 919
     width: 1949
     height: 510
